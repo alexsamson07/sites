@@ -1,0 +1,62 @@
+Установка программы VS Code https://code.visualstudio.com/
+Если не открывается экран он черный ? 
+Тогда надо открывать контекстное меню ярлыка программы и дописать в пути к файлу --disable-gpu
+Устанавлием пакет языка
+поиск ctrl+shift+F
+политру команд ctrl+shift+P
+строка состояния ctrl+shift+M
+перенос текста alt+z
+Space Ocean Kit Refined  цветовая гамма
+для сохраненя фаила входим в параметры и выбираем
+Auto Save сохранения фаила авто
+Insert Spaces Размер отступа  при табуляция
+Detect Indentation  Убрать галачку    
+Hover: Enabled   Отключение подскаски 
+Mouse Wheel Zoom изминение размера шрифта CTRL + движение колёса 
+Close Empty Groups
+выстривается правильно по ряду  shift+alt+F
+форматирование добавляим 1 галочку : Format On Save
+панель поиска ctrl+shift+P
+ищим Open settings json 
+создание документа  !+Tab 
+имя + Tab
+ul>li*10
+fz20+Tab
+пользовательские фрагменты команда
+созадть снипетс для любова языка
+пишем имя снипетса 
+my.code-snippets
+live sass compiler
+ivдобовляем код 
+в settings.json
+"leSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"autoprefix": "last 5 versions",
+			"extensionName": ".css",
+			"savePath": "css",
+		}
+	]
+	создаём папку scss 
+	и фаил style.scss
+	и _heder.scss
+	добавляем в style.scss
+	@import "_header";
+
+live server создаёт локалный сервер 
+SCSS IntelliSense подсазывает например @import
+SCSS Formatter форматровает scss фаилы 
+Auto Complete Tag закрывает теги в вовсех языков
+Bracket Pair Colorizer закрашивает скобочки
+indent-rainbow закрашивает отступы
+Better Comments закрашивает коментарий добавляем в начала строки! ?
+Bem helper добавление елемента класа родителя ctrl + be
+eCSStractor копировает стиле из html в css CTRL + alt + 1
+копировает class из html в css CTRL + alt + 2
+css navigation показывает где находится class наводи на класс и нажимаем f12
+image preview показывает картинки
+Debugger for chrome
+vscode google translat
+Project Manager
+settings sync сохранение всех раширений из vscode в gitube alt+shift+u
