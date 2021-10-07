@@ -309,9 +309,12 @@ body._touch .menu__list > li._active .menu__arrow {
 		color: #000;
 	}
 	.header__name {
-		display: block;
+		display: flex;
 		z-index: 5;
 		font-size: 22px;
+	}
+	.comp {
+		margin: 0px 20px 0px 0px;
 	}
 	.lang {
 		/* display: block; */
@@ -322,3 +325,19 @@ body._touch .menu__list > li._active .menu__arrow {
 	}
 }
 /* ......... */
+@media (max-width: 450px) {
+	.header__name {
+		display: block;
+	}
+}
+@media (max-width: 300px) {
+	.header__logo {
+		display: none;
+	}
+	.header__name {
+		font-size: 16px;
+	}
+	.comp { 
+		margin: 0px 0px 5px 0px;
+	}
+}
